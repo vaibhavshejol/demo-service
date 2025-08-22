@@ -2,10 +2,11 @@ package com.amazingcode.in.example.dto.request;
 
 import lombok.*;
 
-@Data
+@Setter
+@Getter
+@ToString
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 public class EmployeeRequest {
 
     private String firstName;
